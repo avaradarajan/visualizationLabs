@@ -1,0 +1,43 @@
+.chart{
+  font: 10px sans-serif;
+  background-color: black;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  color: white;
+}
+.svgborder {
+    transform: translate(30%, 0%);
+}
+.body{
+  background-color : black;
+  background-image: url("img.png");
+}
+.bar {
+  fill: #ff6600;
+  stroke: white;
+  stroke-width: 2
+}
+.bar:hover {
+  fill: yellow
+}
+.xaxis {
+  stroke: white;
+}
+.yaxis {
+  stroke: white;
+}
+.domain {
+  stroke : white
+}
+.dataplots{
+  fill: orange
+}
+#myRange{direction : rtl}
+#para2,#demo{color : #ffffff; }
+
+.tick line {
+    stroke: #ffffff;
+    stroke-opacity: 0.4;
+    stroke-width: 2;
+}
